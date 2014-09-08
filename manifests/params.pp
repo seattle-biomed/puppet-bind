@@ -17,7 +17,7 @@ class bind::params {
       $packagenameprefix = 'bind9'
       $servicename       = 'bind9'
       $binduser          = 'bind'
-      $bindgroup         = 'bind'
+      $bindgroup         = 'root'
       $restartcmd        = '/usr/sbin/service bind9 reload'
     }
     default: {
